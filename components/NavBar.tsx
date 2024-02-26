@@ -45,9 +45,9 @@ export function NavBar() {
                 </SheetTrigger>
                 <SheetContent side="left">
                     <SheetHeader>
-                        <SheetTitle>Nextjs Start Template</SheetTitle>
+                        <SheetTitle>Nill Tech Solutions ID-Generator</SheetTitle>
                         <SheetDescription>
-                            Plan, Build & Scale.
+                            Generate your Id 
                         </SheetDescription>
                     </SheetHeader>
                     <div className="flex flex-col space-y-3 mt-[1rem]">
@@ -73,7 +73,7 @@ export function NavBar() {
                     <NavigationMenuItem>
                         <Link href="/#pricing" legacyBehavior passHref className="cursor-pointer">
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Pricing
+                                Home
                             </NavigationMenuLink>
                         </Link>
                     </NavigationMenuItem>
