@@ -45,7 +45,7 @@ export function NavBar() {
                 </SheetTrigger>
                 <SheetContent side="left">
                     <SheetHeader>
-                        <SheetTitle>Nill Tech Solutions ID-Generator</SheetTitle>
+                        <SheetTitle>Nill Tech Solutions</SheetTitle>
                         <SheetDescription>
                             Generate your Id 
                         </SheetDescription>
