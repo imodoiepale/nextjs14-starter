@@ -104,7 +104,7 @@ export default function Generator() {
 
     return (
         <div className="flex justify-center pt-20">
-            <div className='flex flex-col gap-10'>
+            <div className='flex flex-col gap-10 p-2'>
                 <Card>
                     <CardContent>
                         <div className="space-y-8 pt-7 justify-center ">
@@ -142,7 +142,7 @@ export default function Generator() {
                             <CardHeader className='items-center'>
                                 <CardTitle >{`Details for ID ${generatedDetails.id}`}</CardTitle>
                             </CardHeader>
-                            <CardDescription className='text-black font-2xl mb-8 flex'>
+                            <CardDescription className=' font-2xl mb-8 flex'>
                                 <div className="flex-1">
                                     <p><strong>First Name:</strong> {generatedDetails.first_name}</p>
                                     <p><strong>Last Name:</strong> {generatedDetails.last_name}</p>
